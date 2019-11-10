@@ -1,0 +1,16 @@
+Application has thrown an uncaught exception and is terminated:
+D:\Doc\nodeserver\index.html:1
+(function (exports, require, module, __filename, __dirname) { <!DOCTYPE html>
+                                                              ^
+
+SyntaxError: Unexpected token <
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)

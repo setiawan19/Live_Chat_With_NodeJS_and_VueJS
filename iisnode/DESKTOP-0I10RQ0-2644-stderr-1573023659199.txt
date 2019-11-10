@@ -1,0 +1,12 @@
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (D:\Doc\nodeserver\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\Doc\nodeserver\node_modules\express\lib\response.js:170:12)
+    at D:\Doc\nodeserver\server.js:7:9
+    at Layer.handle [as handle_request] (D:\Doc\nodeserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Doc\nodeserver\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Doc\nodeserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Doc\nodeserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Doc\nodeserver\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Doc\nodeserver\node_modules\express\lib\router\index.js:335:12)
+(node:2644) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
